@@ -97,3 +97,17 @@
 --     datahora_devolucao DATETIME,
 --     ativo TINYINT DEFAULT 1
 -- );
+-- 
+-- CREATE TABLE usuarios (
+--     idusuario INT AUTO_INCREMENT PRIMARY KEY,
+--     nome VARCHAR(100) NOT NULL,
+--     email VARCHAR(100) NOT NULL UNIQUE,
+--     senha VARCHAR(255) NOT NULL,
+--     tipo VARCHAR(50) NOT NULL, -- exemplos: Gerente, Coordenador, Administrativo, Externo
+--     ativo TINYINT DEFAULT 1
+-- );
+-- INSERT INTO usuarios (nome, email, senha, tipo,ativo)
+-- VALUES ('admin','admin@gmail.com','123321','Administrador','1');
+-- INSERT INTO usuarios (nome, email, senha, nivel)
+-- VALUES ('Admin', 'admin@gmail.com','$2b$12$PG16chC.iTfeGFxr7xITauEZnvchbfb0WAlFzoPWWvYsy9fgl7ZFy', 'Administrador');
+-- 
