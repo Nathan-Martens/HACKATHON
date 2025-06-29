@@ -1,0 +1,2 @@
+2025-06-21 00:05:46 - permissao recebida: Administrador
+2025-06-21 00:06:51 - permissao recebida: Cadastro/Edição
